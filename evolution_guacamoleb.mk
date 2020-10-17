@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/guacamoleb/device.mk)
 
 # Inherit some common Evolution-X stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Official
-CUSTOM_BUILD_TYPE := OFFICIAL
+EVO_BUILD_TYPE := OFFICIAL
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -31,7 +31,7 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_INCLUDE_WIFI_EXT := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_guacamoleb
+PRODUCT_NAME := evolution_guacamoleb
 PRODUCT_DEVICE := guacamoleb
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := OnePlus 7
