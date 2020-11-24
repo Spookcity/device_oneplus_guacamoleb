@@ -16,6 +16,7 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Official
 EVO_BUILD_TYPE := OFFICIAL
+WITH_GAPPS := true
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -24,11 +25,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 EVO_DONATE_URL := https://paypal.me/spookcity138
 EVO_MAINTAINER := Rick_Macek
 EVO_SUPPORT_URL := https://t.me/EvolutionXOnePlus
-
-# Gapps
-TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_INCLUDE_WIFI_EXT := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := evolution_guacamoleb
