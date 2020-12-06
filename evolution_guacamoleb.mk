@@ -16,6 +16,7 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Official
 EVO_BUILD_TYPE := OFFICIAL
+EXTRA_FOD_ANIMATIONS := true
 WITH_GAPPS := true
 
 # Boot Animation
