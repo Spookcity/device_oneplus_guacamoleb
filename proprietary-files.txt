@@ -333,12 +333,6 @@ vendor/bin/thermal-engine
 # Time services
 vendor/bin/time_daemon
 
-# Vibrator HAL
-vendor/bin/hw/vendor.qti.hardware.vibrator@1.2-service
-vendor/etc/init/vendor.qti.hardware.vibrator@1.2-service.rc
-vendor/lib/hw/vibrator.default.so
-vendor/lib64/hw/vibrator.default.so
-
 # WiFi
 vendor/bin/cnss-daemon
 vendor/lib/libwigig_flashaccess.so
@@ -349,7 +343,3 @@ vendor/lib64/libwigig_flashaccess.so
 vendor/lib64/libwigig_pciaccess.so
 vendor/lib64/libwigig_utils.so
 vendor/lib64/libwigigsensing.so
-
-# WiFi Display
-vendor/lib/libwfdconfigutils_proprietary.so
-lib64/libwfdnative.so
