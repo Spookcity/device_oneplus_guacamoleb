@@ -318,9 +318,6 @@ vendor/lib64/sensors.ssc.so
 # Thermal
 vendor/bin/thermal-engine
 
-# Time services
-vendor/bin/time_daemon
-
 # WiFi
 vendor/bin/cnss-daemon
 vendor/lib/libwigig_flashaccess.so
