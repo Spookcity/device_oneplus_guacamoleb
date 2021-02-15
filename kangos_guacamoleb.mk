@@ -16,6 +16,10 @@ $(call inherit-product, vendor/kangos/config/common.mk)
 
 KANGOS_BUILDTYPE := OFFICIAL
 
+PRODUCT_PRODUCT_PROPERTIES += \
+  ro.kangos.maintainer=Rick_Macek \
+  ro.kangos.cpu=SDM855
+
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
