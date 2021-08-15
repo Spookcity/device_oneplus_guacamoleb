@@ -31,7 +31,7 @@ EVO_SUPPORT_URL := https://t.me/EvolutionXOnePlus
 PRODUCT_NAME := evolution_guacamoleb
 PRODUCT_DEVICE := guacamoleb
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := OnePlus 7
+PRODUCT_MODEL := GM1905
 PRODUCT_MANUFACTURER := OnePlus
 
 PRODUCT_AAPT_CONFIG := xxxhdpi
@@ -39,10 +39,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 PRODUCT_CHARACTERISTICS := nosdcard
 
 # Build info
-BUILD_FINGERPRINT := "OnePlus/OnePlus7/OnePlus7:10/QKQ1.190716.003/2011052232:user/release-keys"
+BUILD_FINGERPRINT := "OnePlus/OnePlus7/OnePlus7:11/RKQ1.201022.002/2106290956:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE=OnePlus7 \
-    PRODUCT_NAME=OnePlus7 \
-    PRIVATE_BUILD_DESC="OnePlus7-user 10 QKQ1.190716.003 2011052232 release-keys"
+    PRODUCT_DEVICE=guacamoleb \
+    PRODUCT_NAME=guacamoleb \
+    PRIVATE_BUILD_DESC="OnePlus7-user 11   release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
