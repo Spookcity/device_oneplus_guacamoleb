@@ -39,10 +39,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 PRODUCT_CHARACTERISTICS := nosdcard
 
 # Build info
-BUILD_FINGERPRINT := "OnePlus/OnePlus7/OnePlus7:11/RKQ1.201022.002/2106290956:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE=guacamoleb \
-    PRODUCT_NAME=guacamoleb \
-    PRIVATE_BUILD_DESC="OnePlus7-user 11   release-keys"
-
+    PRODUCT_DEVICE=OnePlus7 \
+	PRODUCT_NAME=OnePlus7
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
