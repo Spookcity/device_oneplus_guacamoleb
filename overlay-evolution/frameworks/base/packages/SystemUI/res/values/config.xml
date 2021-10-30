@@ -22,8 +22,11 @@
     <!-- Allow device to use unordinary cutout overlays -->
     <bool name="config_customCutout">true</bool>
 
-    <!-- Color of the FOD view -->
-    <color name="config_fodColor">#FF00CC00</color>
+    <!-- Color of the UDFPS Pressed view -->
+    <color name="config_udfpsColor">#00ff00</color>
+
+    <!-- Offset for alert slider dialog from status bar -->
+    <integer name="config_alertSliderOffset">400</integer>
 
     <!-- Max visible notification icons -->
     <integer name="config_maxVisibleNotificationIcons">6</integer>
