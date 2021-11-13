@@ -23,7 +23,7 @@
     <bool name="config_customCutout">true</bool>
 
     <!-- Color of the UDFPS Pressed view -->
-    <color name="config_udfpsColor">#00ff00</color>
+    <color name="config_udfpsColor">#00ffffff</color>
 
     <!-- Offset for alert slider dialog from status bar -->
     <integer name="config_alertSliderOffset">400</integer>
